@@ -1,0 +1,28 @@
+{
+  "name": "Facebook Album",
+  "version": "0.0.1",
+  "authors": [
+    "Raman Choudhary <raman.choudhary65@gmail.com>"
+  ],
+  "description": "A beautifull collection of all your Memories.",
+  "main": "index.html",
+  "keywords": [
+    "codians",
+    "raman",
+    "fabian",
+    "facebook",
+    "pictures",
+    "meories",
+    "a"
+  ],
+  "license": "MIT",
+  "homepage": "codians.com/facebookAlbum/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

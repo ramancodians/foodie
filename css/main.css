@@ -1,0 +1,46 @@
+.well {
+    margin-top: 20px;
+}
+
+.cover:before {
+    content: '';
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.cover {
+    min-height: 300px;
+    padding: 40px 0px;
+    background: url(../images/order.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    position: relative;
+    color: #FFF;
+}
+
+
+.reviews .user-img{
+    max-width: 100px;
+    height: 60px;
+    width:  60px;
+    margin: 10px;
+}
+.reviews {
+    padding: 40px 0px;
+}
+
+.btn-not{
+    cursor: auto;
+}
+
+.row.review{
+    margin-top: 20px;
+    border-top: 2px dashed #CCC;    
+}
+
