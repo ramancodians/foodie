@@ -7,8 +7,6 @@ include('views/header.php');
 
 $auth_errors = '';
 
-unset($_SESSION['isLogged']);
-
 if(isset($_SESSION['isLogged'])){
     // that means user is logged in
     //echo "user is aleady logged! hello,".$_SESSION['name'];
@@ -34,6 +32,7 @@ if(isset($_SESSION['isLogged'])){
             while($row = $result->fetch_assoc()) {
                  $dbUsername = $row['email'];   
                  $dbPassword = $row['password'];
+                $_SESSION['user'] = $row;
             }
            
             // this is where magic happens

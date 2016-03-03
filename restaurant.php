@@ -98,7 +98,7 @@ $result = $conn->query($q);
 
     <?php
                         while($r = $result->fetch_assoc()) {
-                            print_r($row);
+                            print_r($r);
                     ?>
                              
                             <div class="row review">
@@ -109,7 +109,7 @@ $result = $conn->query($q);
                                 </div>
                                 <div class="col-xs-6">
                                     </br>
-                                     <h5><strong></strong></h5>
+                                     <h5><strong><?php echo $r['']?></strong></h5>
                                      <h6>time of post</h6>
                                 </div>
                                 <div class="col-xs-4">

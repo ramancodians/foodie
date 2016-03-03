@@ -4,6 +4,8 @@ include('config/auth.php');
 include('views/head.php');
 include('views/header.php');
 include('views/banner.php');
+
+
 ?>
 
 
